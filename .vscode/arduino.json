@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM10",
+    "sketch": "FLF\\sensor_test_all\\sensor_test_all.ino"
+}
