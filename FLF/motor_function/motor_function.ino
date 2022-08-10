@@ -3,11 +3,17 @@ int motor1pin2 = 3;
 int motor2pin1 = 4;
 int motor2pin2 = 5;
 int s1 = A5;
-int s2 = A0;
-int s3 = A1;
+int s2 = A4;
+int s3 = A3;
 int s4 = A2;
-int s5 = A3;
-int s6 = A4;
+int s5 = A1;
+int colors1 = 0;
+int colors2 = 0;
+int colors3 = 0;
+int colors4 = 0;
+int colors5 = 0;
+
+
 void setup() {
   pinMode(motor1pin1, OUTPUT);
   pinMode(motor1pin2, OUTPUT); 
@@ -53,7 +59,15 @@ void right() {
   }
 
 void loop() {
-  Serial.println(analogRead(s3));
-  delay(1000);
+    colors1 = analogRead(s1);
+    colors2 = analogRead(s2);
+    colors3 = analogRead(s3);
+    colors4 = analogRead(s4);
+    colors5 = analogRead(s5);
+
+    if(colors3<100){
+      forward();
+    }
+
   
 }

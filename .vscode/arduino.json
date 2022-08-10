@@ -1,5 +1,5 @@
 {
     "board": "arduino:avr:uno",
     "port": "COM9",
-    "sketch": "FLF\\sensor_test_all\\sensor_test_all.ino"
+    "sketch": "FLF\\motor_function\\motor_function.ino"
 }
