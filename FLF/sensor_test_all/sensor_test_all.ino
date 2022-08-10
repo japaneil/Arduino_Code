@@ -31,16 +31,15 @@ void loop() {
 
     Serial.print("Most Right Sensor: ");
     Serial.println(colors5);
-    Serial.println("");
+
     Serial.print("Right Sensor: ");
-    Serial.print(colors4);
-    Serial.println("");
+    Serial.println(colors4);
+
     Serial.print("Middle Sensor: ");
     Serial.println(colors3);
-    Serial.println("");
+
     Serial.print("Left Sensor: ");
-    Serial.print(colors2);
-    Serial.println("");
+    Serial.println(colors2);
     Serial.print("Most Left Sensor: ");
     Serial.println(colors1);
     Serial.println("");
